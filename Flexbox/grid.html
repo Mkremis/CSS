@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Introduction
+    </title>
+    <style>
+      .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        grid-gap: 10px;
+        background-color: aquamarine;
+        border: 1px solid green;
+      }
+      .wrapper > div {
+        background-color: blanchedalmond;
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box1">Uno</div>
+      <div class="box2">Dos</div>
+      <div class="box3">Tres</div>
+      <div class="box4">Cuatro</div>
+      <div class="box5">Cinco</div>
+      <div class="box6">Seis</div>
+    </div>
+  </body>
+</html>

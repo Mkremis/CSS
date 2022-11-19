@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Utilizamos un column-width de 200 píxeles en ese contenedor,
+       que crea en el navegador tantas columnas de 200 píxeles como
+       quepan en el contenedor y luego comparte el espacio restante 
+       entre las columnas creadas. 
+      .container {
+        column-width: 200px;
+      }*/
+
+      /* Para convertir un bloque en un contenedor, utilizamos la propiedad column-count,
+       que le dice al navegador cuántas columnas nos gustaría tener: */
+      .container {
+        column-count: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Diseño en columnas</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+        voluptatum quia aperiam nam atque nulla recusandae voluptates reiciendis
+        quidem suscipit? Fugiat aperiam rerum mollitia eius quaerat. Quaerat
+        assumenda accusamus saepe!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempora
+        magni corporis veniam minus autem labore a, eum consectetur nemo
+        dolorem, possimus numquam ullam aliquid dolore magnam! Maiores, eveniet
+        blanditiis?
+      </p>
+    </div>
+  </body>
+</html>
